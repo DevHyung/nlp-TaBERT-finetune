@@ -13,7 +13,7 @@
     (Using a Pre_Trained Model 부분)
 
 4. 이 Repo에 있는 all.json, querys.txt, train_finetune.py 를 taber Repo에 넣고 실행
-    4-1. 기다 Config 변수는 우선 argparser가 아닌 코드안에 하드코딩구현
+    4-1. 우선은 모델 Config나 PATH관련 변수는 if __main__ 쪽에 하드코딩으로 구현
 ```
 
 ## Installation
