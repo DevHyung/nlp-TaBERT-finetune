@@ -1,5 +1,21 @@
 # TaBERT_finetune
 
+## 사용법 Summary
+```bash
+1. tabert github repo를 clone
+    1-1. tabert conda env 와 패키지들 설치
+    (Installation 부분)
+
+2. tabert pre-trained model down
+    (Pre-trained Models 부분)
+
+3. tabert 코드 구동 확인
+    (Using a Pre_Trained Model 부분)
+
+4. 이 Repo에 있는 all.json, querys.txt, train_finetune.py 를 taber Repo에 넣고 실행
+    4-1. 기다 Config 변수는 우선 argparser가 아닌 코드안에 하드코딩구현
+```
+
 ## Installation
 
 First, clone the `tabert` github repo.
@@ -35,7 +51,7 @@ pip install gdown
 gdown 'https://drive.google.com/uc?id=1NPxbGhwJF1uU9EC18YFsEZYE-IQR7ZLj'
 
 # gdown 후에 다운받은 알집파일 해제 
-tar -xvzf PATH/TO/MODEL.tar
+tar -xvzf PATH/TO/MODEL.tar.gz
 ```
 
 ## Using a Pre-trained Model
